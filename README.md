@@ -4,7 +4,11 @@ TDD (Test Driven Development) abordagem de desenvolvimento orientada a testes. E
 
 A idéia do TDD é primeiro escrever os testes da aplicação, para depois implementar o código que realmente fara a aplicação rodar. 
 
-O TDD prega que cada incremento pequeno no software (baby step) deve ser testado, para que bugs sejam corrigidos logo no início. A base do TDD são os unit tests. 
+O TDD prega que cada incremento pequeno no software (baby step) deve ser testado, para que bugs sejam corrigidos logo no início. A base do TDD são os unit tests. Um unit test é um teste, geralemnte automatizado que testa uma única unidade da sua aplicação, geralmente uma única função.
+
+Comandos para instalar e inicializar o Jest na aplicação:
+npm install --save-dev jest
+jest --init
 
 
 
